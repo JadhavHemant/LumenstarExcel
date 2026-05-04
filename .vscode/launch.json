@@ -1,0 +1,51 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Microsoft cloud sandbox",
+      "request": "launch",
+      "type": "al",
+      "server": "https://businesscentral.dynamics.com/",
+      "environmentType": "Sandbox",
+      "environmentName": "ANION-ERP", //ANION-ERP
+      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194",
+      "startupObjectId": 50101,
+      "startupObjectType": "Page",
+      "breakOnError": "All",
+      "launchBrowser": true,
+      "enableLongRunningSqlStatements": true,
+      "enableSqlInformationDebugger": true,
+      "schemaUpdateMode": "Synchronize"
+    },
+    {
+      "name": "AL: Generated Snapshot request",
+      "request": "snapshotInitialize",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "DEV",
+      "sessionId": 450979,
+      "breakOnNext": "WebClient",
+      "executionContext": "DebugAndProfile",
+      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+    },
+    {
+      "name": "AL: Generated Attach request",
+      "request": "attach",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "DEV",
+      "sessionId": 450979,
+      "breakOnNext": "WebClient",
+      "breakOnError": "ExcludeTry",
+      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+    },
+    {
+      "name": "AL: Generated Download Symbols request",
+      "request": "launch",
+      "type": "al",
+      "environmentType": "Sandbox",
+      "environmentName": "DEV",
+      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+    }
+  ]
+}

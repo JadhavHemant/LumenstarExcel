@@ -1,0 +1,41 @@
+#my-chart {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  height: 500px;
+}
+
+#my-chart .column {
+  height: 50px;
+}
+#my-chart .legend {
+}
+
+#my-bar {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  /* height: 500px; */
+}
+
+#my-bar .bar {
+  --aspect-ratio: 5 / 3;
+}
+
+/* #animations-example .column td {
+  animation: jumping-bars 3s linear infinite;
+}
+#animations-example .column tr:nth-of-type(even) td {
+  animation-delay: 300ms;
+}
+@keyframes jumping-bars {
+  0% {
+    transform: translateY(0px);
+  }
+  2% {
+    transform: translateY(-10px);
+  }
+  4% {
+    transform: translateY(0px);
+  }
+} */

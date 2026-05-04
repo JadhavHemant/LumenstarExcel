@@ -1,0 +1,43 @@
+{
+  "id": "c3e991d3-b6c0-4bc2-a8c7-daaa16102001",
+  "name": "Lumenstar",
+  "publisher": "Anion Ltd",
+  "version": "1.0.0.0",
+  "brief": "Lumenstar",
+  "description": "Lumenstar",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "26.0.0.0"
+    },
+    {
+      "id": "c3e991d3-b6c0-4bc2-a8c7-daa7657c24c1",
+      "name": "Lumenstar",
+      "publisher": "Lumenstar",
+      "version": "1.0.0.0"
+    }
+  ],
+  "screenshots": [],
+  "platform": "26.0.0.0",
+  "application": "26.1.33404.33834",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 51000
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "15.0",
+  "features": ["NoImplicitWith"]
+}
