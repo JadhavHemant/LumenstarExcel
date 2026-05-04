@@ -7,8 +7,8 @@
       "type": "al",
       "server": "https://businesscentral.dynamics.com/",
       "environmentType": "Sandbox",
-      "environmentName": "ANION-ERP", //ANION-ERP
-      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194",
+      "environmentName": "UAT10Feb2026", 
+      "tenant": "9ee5cfce-1266-48be-9201-aa255c467818",
       "startupObjectId": 50101,
       "startupObjectType": "Page",
       "breakOnError": "All",
@@ -22,30 +22,30 @@
       "request": "snapshotInitialize",
       "type": "al",
       "environmentType": "Sandbox",
-      "environmentName": "DEV",
+      "environmentName": "UAT10Feb2026",
       "sessionId": 450979,
       "breakOnNext": "WebClient",
       "executionContext": "DebugAndProfile",
-      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+      "tenant": "9ee5cfce-1266-48be-9201-aa255c467818"
     },
     {
       "name": "AL: Generated Attach request",
       "request": "attach",
       "type": "al",
       "environmentType": "Sandbox",
-      "environmentName": "DEV",
+      "environmentName": "UAT10Feb2026",
       "sessionId": 450979,
       "breakOnNext": "WebClient",
       "breakOnError": "ExcludeTry",
-      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+      "tenant": "9ee5cfce-1266-48be-9201-aa255c467818"
     },
     {
       "name": "AL: Generated Download Symbols request",
       "request": "launch",
       "type": "al",
       "environmentType": "Sandbox",
-      "environmentName": "DEV",
-      "tenant": "3cf9837d-2a43-4fce-bb19-6e5ebbc44194"
+      "environmentName": "UAT10Feb2026",
+      "tenant": "9ee5cfce-1266-48be-9201-aa255c467818"
     }
   ]
 }
